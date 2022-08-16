@@ -2,7 +2,7 @@ from git import Repo
 from datetime import datetime
 import time
 
-commit = 3
+cp = 3
 PATH_OF_GIT_REPO = r'D:\Data\Github\Python\default-py'
 
 def git_push():
@@ -13,11 +13,11 @@ def git_push():
         repo.index.commit("Update: " + str(now))
         origin = repo.remote(name='origin')
         origin.push()
-        print("Update: " + str(now))
+        print("Commit: " + str(now))
     except:
         print('Error')    
 
 
-for x in range (1, commit):
+for x in range (1,cp):
     time.sleep(1)
     git_push()
