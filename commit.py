@@ -2,7 +2,7 @@ from git import Repo
 from datetime import datetime
 import time
 
-commit = 10
+commit = 3
 PATH_OF_GIT_REPO = r'D:\Data\Github\Python\default-py'
 
 def git_push():
