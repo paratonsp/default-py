@@ -4,7 +4,7 @@ import time
 
 print("Push?")
 cp =  input()
-PATH_OF_GIT_REPO = r'../default-py'
+PATH_OF_GIT_REPO = r'../paratonsp'
 
 def git_push():
     try:
@@ -19,6 +19,6 @@ def git_push():
         print('Error')    
 
 
-for x in range (1,int(cp)):
+for x in range (1,int(cp)+1):
     time.sleep(1)
     git_push()
