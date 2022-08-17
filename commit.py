@@ -2,7 +2,8 @@ from git import Repo
 from datetime import datetime
 import time
 
-cp = 10
+print("Push?")
+cp =  input()
 PATH_OF_GIT_REPO = r'../default-py'
 
 def git_push():
@@ -18,6 +19,6 @@ def git_push():
         print('Error')    
 
 
-for x in range (1,cp):
+for x in range (1,int(cp)):
     time.sleep(1)
     git_push()
