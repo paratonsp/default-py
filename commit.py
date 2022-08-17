@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 
 cp = 10
-PATH_OF_GIT_REPO = r'D:\Data\Github\Python\default-py'
+PATH_OF_GIT_REPO = r'../default-py'
 
 def git_push():
     try:
