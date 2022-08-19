@@ -1,9 +1,9 @@
 from git import Repo
 from datetime import datetime
 import time
+import random
 
-print("Push?")
-cp =  input()
+cp = random.randint(25,50)
 PATH_OF_GIT_REPO = r'../paratonsp'
 
 def git_push():
