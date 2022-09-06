@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 import random
 
-cp = random.randint(25,50)
+cp = random.randint(10,20)
 PATH_OF_GIT_REPO = r'../paratonsp'
 
 def git_push():
